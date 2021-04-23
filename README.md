@@ -5,10 +5,15 @@ This is a part of Geo-event QA project used to demonstrate the sysnthesis functi
 This includes:
 
 APE software (.jar)
+
 config.json: configuration files
+
 constraints.json: constraint files 
-GeoTaxonomy.rdf: a combined ontology of CCD ontology and tool onotlogy based on geooperator categories .
+
+GeoTaxonomy.rdf: a combined ontology of CCD ontology and tool onotlogy based on geooperator categories.
+
 GeooperatorsAnnotation.json: the tool annotation file as input to APE.
+
 solutions.txt: solution workflows in the text format
 
 
