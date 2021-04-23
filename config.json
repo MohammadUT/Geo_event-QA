@@ -1,0 +1,50 @@
+{
+ "ontologyPrexifIRI": "http://geographicknowledge.de/vocab/CoreConceptData.rdf#",
+  "solutions_dir_path": "./Spec1/", 
+  "tool_annotations_path": "./GeooperatorsAnnotation.json",
+  "strict_tool_annotations": "false",
+  "ontology_path": "./GeoTaxonomy.owl",  
+  "constraints_path": "./Spec1/constraints.json",
+  "toolsTaxonomyRoot": "http://www.co-ode.org/ontologies/ont.owl#Geooperator", 
+  
+  "dataDimensionsTaxonomyRoots": [
+    	"http://geographicknowledge.de/vocab/CoreConceptData.rdf#CoreConceptQ",
+    	"http://geographicknowledge.de/vocab/CoreConceptData.rdf#LayerA",
+    	"http://geographicknowledge.de/vocab/CoreConceptData.rdf#NominalA"
+  ],
+  "shared_memory": "true",
+  "solution_length": { "min": 2, "max": 10 },
+  "max_solutions": "1000",
+  "number_of_execution_scripts": "0",
+  "number_of_generated_graphs": "0",
+  "inputs": [    
+	{
+	"CoreConceptQ": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#ObjectQ"],
+         "LayerA": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#LineA"],
+	 "NominalA": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#NominalA"]    
+  },
+  {
+	"CoreConceptQ": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#ObjectQ"],
+         "LayerA": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#LineA"],
+	 "NominalA": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#NominalA"]     
+  },
+  {
+  "CoreConceptQ": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#FieldQ"],
+         "LayerA": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#VectorTessellationA"],
+	 "NominalA": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#NominalA"] 
+  }
+  
+  ],
+  "outputs": [
+    {
+	"CoreConceptQ": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#FieldQ"],
+         "LayerA": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#VectorTessellationA"],
+	 "NominalA": ["http://geographicknowledge.de/vocab/CoreConceptData.rdf#NominalA"] 
+    }
+  ],
+  "debug_mode": "false",
+  "use_workflow_input": "all",
+  "use_all_generated_data": "one",
+  "tool_seq_repeat": "false",
+  "timeout_sec": "60"
+}
