@@ -16,6 +16,8 @@ GeooperatorsAnnotation.json: the tool annotation file as input to APE.
 
 solutions.txt: solution workflows in the text format
 
+GroupingEqWfs-Intensional.py : Grouping equivalent workflows using intensional approach
+
 
 ## Installation
 In order to run the synthesis using APE-1.17.jar Java 1.8 or higher should be installed on the system.
