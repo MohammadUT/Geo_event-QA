@@ -7,11 +7,6 @@ import pandas as pd
 EquivalentTools = pd.read_csv('Equivalent Tools.csv').values.tolist()
 APEGeneratedSolutions = pd.read_csv('GeneratedSolutions.csv').values.tolist()
 
-# EquivalentTools = []
-# for i in EquivalentToolscsv:
-#     EquivalentTools.append([x for x in i if x])
-    
-#EquivalentTools.remove(EquivalentTools[0])
 
 def equivalentTools (tool):
     result = [x for x in EquivalentTools if tool in x]
