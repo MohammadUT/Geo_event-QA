@@ -41,6 +41,6 @@ def GroupTool(GeneratedSolutions):
         
         
         
-GroupedSolutions = GroupTool(GeneratedSolutions)
+GroupedSolutions = GroupTool(APEGeneratedSolutions)
 
  
