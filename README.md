@@ -26,7 +26,7 @@ In order to run the synthesis using APE-1.17.jar Java 1.8 or higher should be in
 
 In order to execute the synthesis you should run the following command:
 
-java -jar APE-1.17.jar ~/config.json
+java -jar APE-<version>-executable.jar [path_to_ape_configuration_file]
 
 The results of the synthesis would be:
 Spec1/sat_solutions.txt	-	First X candidate solutions in textual format
